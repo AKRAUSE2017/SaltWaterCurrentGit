@@ -67,6 +67,10 @@ table{
 
 }
 
+.ui-content{
+  text-shadow: 0px 0px black;
+}
+
 .riddles{
   background: lightblue;
 }
