@@ -53,6 +53,24 @@ table{
   text-align: center;
 }
 
+.about{
+  text-align: left;
+  padding-top: 10px
+  font-style: verdana;
+  font-size: 20px;
+  color: black;
+
+}
+
+.aboutBG{
+  background: green;
+
+}
+
+.ui-content{
+  text-shadow: 0px 0px black;
+}
+
 .riddles{
   background: lightblue;
 }
