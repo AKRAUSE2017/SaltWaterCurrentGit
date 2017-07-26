@@ -6,5 +6,5 @@ function checkRiddles(){
   } if (($("#txtQ2").val() == "ROYAL GRAMMA")){
     check=2;
     console.log(check);
-  }
+  } if (($("#txtQ3").val() == ""))
 }
