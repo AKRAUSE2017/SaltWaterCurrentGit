@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Salt Water EcoScapes</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/saltWater.css"/>
+  <script src="scripts/jquery-1.9.1.min.js"></script>
+  <script src="scripts/jquery.mobile-1.3.1.min.js"></script>
+  <script src="scripts/riddles.js"></script>
+
+</head>
+
+<body>
+  <!--welcome page-->
+  <div data-role="page" id="welcomePage">
+    <a href="index.html">Home</a>
+      <h1>Welcome to Salt Water EcoScapes!</h1>
+    <div data-role="content">
+      <div data-role="controlgroup">
+        <a href="#btsPage" data-role="button" class="menu">Behind the Scenes</a>
+        <a href="#fishPage" data-role="button" class="menu">Fish Inventory</a>
+        <a href="#sharkPage" data-role="button" class="menu">Tour the Tanks</a>
+        <a href="#riddlesPage" data-role="button" class="menu">Riddles</a>
+        <a href="" data-role="button" class="menu">Photo Gallery</a>
+        <a href="" data-role="button" class="menu">About</a>
+        <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
+        <img src="assets/welcomebubble.png" class="bubble" alt="speech bubble" width="150" height="150">
+      </div>
+    </div>
+  </div>
+
+
+  <!--Behind the Scenes-->
+  <div data-role="page" id="btsPage">
+    <a href="index.html">Home</a>
+    <h1>Behind the Scenes!</h1>
+  <div data-role="content">
+    <p class="interview">Watch an interview with the head of life sciences
+       at the Museum of Discovery and Science, Matther
+       Dumler. Learn about what it's like to maintain the
+       tanks and more!</p>
+    <video width="320" height="240" controls>
+      <source src="assets/interview.mp4" type="video/mp4">
+    </video>
+    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
+  </div>
+</div>
+
+  <!--Tour the Tanks: Shark-->
+  <div data-role="page" id="sharkPage">
+    <a href="index.html">Home</a>
+    <h1>Tour the Tanks!</h1>
+    <h2>Sharks</h2>
+  <div data-role="content">
+    <div data-role="controlgroup" horizontal>
+      <a href="#reefPage" data-role="button">Artificial Reef</a>
+      <a href="#sharkPage" data-role="button">Shark Tank</a>
+    </div>
+    <video width="320" height="240" controls>
+      <source src="assets/SharkTank.mp4" type="video/mp4">
+    </video>
+    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
+    <img src="assets/goprobubble.png" class="bubble" alt="speech bubble" width="150" height="150">
+  </div>
+  </div>
+
+  <!--Tour the Tanks: Artificial-->
+  <div data-role="page" id="reefPage">
+    <a href="index.html">Home</a>
+    <h1>Tour the Tanks!</h1>
+    <h2>Artificial Reef</h2>
+
+  <div data-role="content">
+    <div data-role="controlgroup" horizontal>
+      <a href="#reefPage" data-role="button">Artificial Reef</a>
+      <a href="#sharkPage" data-role="button">Shark Tank</a>
+    </div>
+    <video width="320" height="240" controls>
+      <source src="assets/ArtificialReef.mp4" type="video/mp4">
+    </video>
+    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
+    <img src="assets/goprobubble.png" class="bubble" alt="speech bubble" width="150" height="150">
+  </div>
+  </div>
+
+  <!--Riddles Page-->
+  <div data-role="page" id="riddlesPage" class="riddles">
+    <a href="index.html">Home</a>
+    <h1>Riddles!</h1>
+
+    <div data-role="content">
+      <p class="description">Can you solve these riddles?<br><br></p>
+
+      <p class="question">1. If you scare me, I might secrete poison from my spine.</p>
+      <input type="text" placeholder="What am I?" name="txtQ1" id="txtQ1" value=""
+      required>
+      <p class="question">2. You might have seen me on the big screen. I can assure you that the tank I’m in is clean</p>
+      <input type="text" placeholder="What am I?" name="txtQ2" id="txtQ2" value=""
+      required>
+      <p class="question">3. Please don’t step on me… despite my name, I am not a shoe.</p>
+      <input type="text" placeholder="What am I?" name="txtQ3" id="txtQ3" value=""
+      required>
+      <p class="question">4. You might have to look down to find me.</p>
+      <input type="text" placeholder="What am I?" name="txtQ4" id="txtQ4" value=""
+      required>
+      <p class="question">5. I can’t see you, but you can see me.</p>
+      <input type="text" placeholder="What am I?" name="txtQ5" id="txtQ5" value=""
+      required>
+      <p class="question">6. You might have to use your brain to find this piece of coral.</p>
+      <input type="text" placeholder="What am I?" name="txtQ6" id="txtQ6" value=""
+      required><br>
+      <p class="description">Need help? View the fish inventory <a href="#fishriddlePage">here!</a></p>
+      <a data-role="button" onclick="checkRiddles()" class="submit">Submit</a>
+    </div>
+  </div>
+
+  <!--fish page-->
+  <div data-role=page id="fishPage">
+    <a href="index.html">Home</a>
+    <h1>Fish Inventory</h1>
+
+    <div data-role="content">
+      <table align="center" border="1"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
+        <tr>
+          <td align="center">Horse Shoe Crab</td>
+          <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td align="center">DogFish Shark</td>
+          <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
+      </table>
+
+    </div>
+  </div>
+
+  <!--fish page riddles-->
+  <div data-role=page id="fishriddlePage">
+    <a href="#riddlesPage">Back</a>
+    <h1>Fish Inventory</h1>
+
+    <div data-role="content">
+      <table align="center" border="1"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
+        <tr>
+          <td align="center">Horse Shoe Crab</td>
+          <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td align="center">DogFish Shark</td>
+          <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
+      </table>
+
+    </div>
+  </div>
+
+</body>
