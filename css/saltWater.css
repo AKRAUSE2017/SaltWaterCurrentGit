@@ -94,3 +94,12 @@ table{
   text-align:center;
   padding:5px;
 }
+
+#riddlesHead{
+  color: black;
+  font-family: fantasy;
+}
+
+.home{
+  text-shadow: 0px 0px;
+}
