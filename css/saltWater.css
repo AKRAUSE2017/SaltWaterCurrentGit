@@ -12,6 +12,7 @@ h2{
 video{
   display: block;
   margin: 0 auto;
+  /*padding:5px;*/
 }
 
 table{
@@ -32,8 +33,9 @@ table{
 
 .bubble{
   position: absolute;
+  padding-top:10px;
   right:160px;
-  bottom:75px;
+  bottom:10px;
 }
 
 .goproButton{
@@ -77,4 +79,18 @@ table{
 
 .ui-content{
   text-shadow: 0px 0px black;
+}
+
+.link{
+  background:white;
+  padding:5px 5px;
+  color:black;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.gpNav{
+  text-align:center;
+  padding:5px;
 }
