@@ -36,6 +36,7 @@ table{
   padding-top:10px;
   right:160px;
   bottom:10px;
+  bottom:25px;
 }
 
 .goproButton{
@@ -66,7 +67,6 @@ table{
 
 .aboutBG{
   background: green;
-
 }
 
 .ui-content{
@@ -106,4 +106,3 @@ table{
 
 .txtTable{
   color: black;
-}

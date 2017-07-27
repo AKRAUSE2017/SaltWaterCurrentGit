@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Salt Water EcoScapes</title>
+  <title>Salt Water EcoScape</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
@@ -21,6 +21,7 @@
   <div data-role="page" id="welcomePage">
     <a href="index.html" class="home">Home</a>
       <h1>Welcome to Salt Water EcoScapes!</h1>
+
     <div data-role="content">
       <div data-role="controlgroup">
         <a href="#btsPage" data-role="button" class="menu">Behind the Scenes</a>
@@ -30,6 +31,7 @@
         <a href="" data-role="button" class="menu">Photo Gallery</a>
         <a href="#aboutPage" data-role="button" class="menu">About</a>
         <a href="arPage" data-role="button" class="menu">Augmented Reality</a>
+
         <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
         <img src="assets/welcomebubble.png" class="bubble" alt="speech bubble" width="125" height="125">
       </div>
@@ -40,10 +42,11 @@
   <!--Behind the Scenes-->
   <div data-role="page" id="btsPage">
     <a href="index.html" class="home">Home</a>
+
     <h1>Behind the Scenes!</h1>
   <div data-role="content">
     <p class="interview">Watch an interview with the head of life sciences
-       at the Museum of Discovery and Science, Matther
+       at the Museum of Discovery and Science, Matthew
        Dumler. Learn about what it's like to maintain the
        tanks and more!</p>
     <video width="320" height="240" controls>
@@ -78,11 +81,9 @@
     <h2>Artificial Reef</h2>
 
   <div data-role="content">
-    <div data-role="controlgroup" horizontal>
-      <div class="link">
-      <a href="#reefPage">Artificial Reef</a>
-      <a href="#sharkPage">Shark Tank</a>
-      </div>
+    <div data-role="controlgroup" class="gpNav">
+      <a href="#reefPage" class="link">Artificial Reef</a>
+      <a href="#sharkPage" class="link">Shark Tank</a>
     </div>
     <video width="320" height="240" controls>
       <source src="assets/ArtificialReef.mp4" type="video/mp4">
@@ -102,45 +103,93 @@
 
       <p class="question">1. If you scare me, I might secrete poison from my spine.</p>
       <input type="text" placeholder="What am I?" name="txtQ1" id="txtQ1" value=""
-      required>
+      required >
       <p class="question">2. You might have seen me on the big screen. I can assure you that the tank I’m in is clean</p>
       <input type="text" placeholder="What am I?" name="txtQ2" id="txtQ2" value=""
-      required>
+      required >
       <p class="question">3. Please don’t step on me… despite my name, I am not a shoe.</p>
       <input type="text" placeholder="What am I?" name="txtQ3" id="txtQ3" value=""
-      required>
+      required >
       <p class="question">4. You might have to look down to find me.</p>
       <input type="text" placeholder="What am I?" name="txtQ4" id="txtQ4" value=""
-      required>
+      required >
       <p class="question">5. I can’t see you, but you can see me.</p>
       <input type="text" placeholder="What am I?" name="txtQ5" id="txtQ5" value=""
-      required>
+      required >
       <p class="question">6. You might have to use your brain to find this piece of coral.</p>
       <input type="text" placeholder="What am I?" name="txtQ6" id="txtQ6" value=""
-      required><br>
+      required ><br>
       <p class="description">Need help? View the fish inventory <a href="#fishriddlePage">here!</a></p>
       <a data-role="button" onclick="checkRiddles()" class="submit">Submit</a>
     </div>
   </div>
 
   <!--fish page-->
-  <div data-role=page id="fishPage">
+  <div data-role=page id="fishPage" class="inv">
     <a href="index.html" class="home">Home</a>
-    <h1>Fish Inventory</h1>
 
+    <h1>Fish Inventory</h1>
     <div data-role="content">
-      <table align="center" border="1"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
-        <tr>
-          <td class="txtTable" align="center">Horse Shoe Crab</td>
+      <table align="center"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
+          <td class="info" align="center">Horse Shoe Crab</td>
           <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
         </tr>
         <tr>
-          <td class="txtTable" align="center">DogFish Shark</td>
+          <td class="info" align="center">DogFish Shark</td>
           <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
         </tr>
         <tr>
-          <td class="txtTable" align="center">Caribbean Spiny Lobster</td>
-          <td align="center"><img src="assets/lobster.jpg" alt="Caribbean Spiny Lobster" width="150" height="100"></td>
+          <td class="info" align="center">Royal Gramma</td>
+          <td align="center"><img src="assets/gramma.png" alt="royal gramma" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Pork Fish</td>
+          <td align="center"><img src="assets/porkfish.png" alt="pork fish" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Blue Chromis</td>
+          <td align="center"><img src="assets/bluechromis.png" alt="blue chromis" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Scorpion Fish</td>
+          <td align="center"><img src="assets/scorpionfish.png" alt="Scorpion Fish" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Puffer Fish</td>
+          <td align="center"><img src="assets/pufferfish.png" alt="Puffer Fish" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Slipper Lobster</td>
+          <td align="center"><img src="assets/slipper.png" alt="Slipper Lobster" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Brain Coral</td>
+          <td align="center"><img src="assets/brain.png" alt="Brain Coral" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Spotted Spiny Lobster</td>
+          <td align="center"><img src="assets/spotted.png" alt="Spotted Spiny Lobster" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Horse Conch</td>
+          <td align="center"><img src="assets/conch.png" alt="Horse Conch" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Lookdown fish</td>
+          <td align="center"><img src="assets/lookdown.png" alt="Lookdown fish" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Blind Eye Cave Fish</td>
+          <td align="center"><img src="assets/cave.png" alt="Blind Eye Cave Fish" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Slippery Dick</td>
+          <td align="center"><img src="assets/slippery.png" alt="Slippery Dick" width="150" height="100"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center">Caribbean Spiny Lobster</td>
+          <td align="center"><img src="assets/caribbean.jpg" alt="Caribbean Spiny Lobster" width="150" height="100"></td>
+        </tr>
       </table>
 
     </div>
@@ -151,19 +200,71 @@
     <a href="#riddlesPage">Back</a>
     <h1>Fish Inventory</h1>
 
-    <div data-role="content">
-      <table align="center" border="1"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
-        <tr>
-          <td align="center">Horse Shoe Crab</td>
-          <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
-        </tr>
-        <tr>
-          <td align="center">DogFish Shark</td>
-          <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
-      </table>
+    <table align="center"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
+        <td class="info" align="center">Horse Shoe Crab</td>
+        <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">DogFish Shark</td>
+        <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Royal Gramma</td>
+        <td align="center"><img src="assets/gramma.png" alt="royal gramma" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Pork Fish</td>
+        <td align="center"><img src="assets/porkfish.png" alt="pork fish" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Blue Chromis</td>
+        <td align="center"><img src="assets/bluechromis.png" alt="blue chromis" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Scorpion Fish</td>
+        <td align="center"><img src="assets/scorpionfish.png" alt="Scorpion Fish" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Puffer Fish</td>
+        <td align="center"><img src="assets/pufferfish.png" alt="Puffer Fish" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Slipper Lobster</td>
+        <td align="center"><img src="assets/slipper.png" alt="Slipper Lobster" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Brain Coral</td>
+        <td align="center"><img src="assets/brain.png" alt="Brain Coral" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Spotted Spiny Lobster</td>
+        <td align="center"><img src="assets/spotted.png" alt="Spotted Spiny Lobster" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Horse Conch</td>
+        <td align="center"><img src="assets/conch.png" alt="Horse Conch" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Lookdown fish</td>
+        <td align="center"><img src="assets/lookdown.png" alt="Lookdown fish" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Blind Eye Cave Fish</td>
+        <td align="center"><img src="assets/cave.png" alt="Blind Eye Cave Fish" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Slippery Dick</td>
+        <td align="center"><img src="assets/slippery.png" alt="Slippery Dick" width="150" height="100"></td>
+      </tr>
+      <tr>
+        <td class="info" align="center">Caribbean Spiny Lobster</td>
+        <td align="center"><img src="assets/caribbean.jpg" alt="Caribbean Spiny Lobster" width="150" height="100"></td>
+      </tr>
+    </table>
 
     </div>
   </div>
+
 
   <!--about page-->
   <div data-role="page" id="aboutPage" class="aboutBG">
