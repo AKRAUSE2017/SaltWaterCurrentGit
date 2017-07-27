@@ -58,14 +58,15 @@ table{
 .about{
   text-align: left;
   padding-top: 10px
-  font-style: verdana;
-  font-size: 20px;
+  font-family: fantasy;
+  text-align: justify;
+  font-size: 15px;
   color: black;
 
 }
 
 .aboutBG{
-  background: lightgreen;
+  background: lightblue;
 }
 
 .ui-content{
