@@ -94,9 +94,10 @@ table{
   padding:5px;
 }
 
-#riddlesHead{
+.riddlesHead{
   color: black;
   font-family: fantasy;
+  text-shadow: 0px 0px;
 }
 
 .home{
@@ -112,14 +113,44 @@ table{
   background: #b6bfc8;
 }
 
-.bts{
-  background: #ffc7b3;
-}
-
-.tour{
-  background: #afcfaf;
-}
-
 .title{
   text-decoration: underline;
+}
+
+.welcomeHead{
+  font-family:monospace;
+}
+
+.btsHead{
+  font-family: Comic Sans MS;
+}
+
+.galleryHead{
+  font-family: Comic Sans MS;
+}
+
+.tourHead{
+  font-family: Comic Sans MS;
+}
+
+.invHead{
+  color: black;
+  font-family: fantasy;
+  text-shadow: 0px 0px;
+}
+
+.arHead{
+  color: black;
+  font-family: fantasy;
+  text-shadow: 0px 0px;
+}
+
+.ar{
+  background:#ffe866;
+}
+
+.txtLi{
+  color:black;
+  text-shadow: 0px 0px;
+  font-size: 20px;
 }
