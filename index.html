@@ -29,18 +29,18 @@
         <a href="#sharkPage" data-role="button" class="menu">Tour the Tanks</a>
         <a href="#riddlesPage" data-role="button" class="menu">Riddles</a>
         <a href="" data-role="button" class="menu">Photo Gallery</a>
-        <a href="#aboutPage" data-role="button" class="menu">About</a>
         <a href="arPage" data-role="button" class="menu">Augmented Reality</a>
+        <a href="#aboutPage" data-role="button" class="menu">About</a>
 
-        <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
-        <img src="assets/welcomebubble.png" class="bubble" alt="speech bubble" width="125" height="125">
+        <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="100" height="100">
+        <img src="assets/welcomebubble.png" class="bubble" alt="speech bubble" width="100" height="100">
       </div>
     </div>
   </div>
 
 
   <!--Behind the Scenes-->
-  <div data-role="page" id="btsPage">
+  <div data-role="page" id="btsPage" class="bts">
     <a href="index.html" class="home">Home</a>
 
     <h1>Behind the Scenes!</h1>
@@ -57,7 +57,7 @@
 </div>
 
   <!--Tour the Tanks: Shark-->
-  <div data-role="page" id="sharkPage">
+  <div data-role="page" id="sharkPage" class="tour">
     <a href="index.html" class="home">Home</a>
     <h1>Tour the Tanks!</h1>
     <h2>Sharks</h2>
@@ -69,13 +69,13 @@
     <video width="320" height="240" controls>
       <source src="assets/SharkTank.mp4" type="video/mp4">
     </video>
-    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
-    <img src="assets/goprobubble.png" class="bubble" alt="speech bubble" width="125" height="125">
+    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="100" height="100">
+    <img src="assets/goprobubble.png" class="bubble" alt="speech bubble" width="100" height="100">
   </div>
   </div>
 
   <!--Tour the Tanks: Artificial-->
-  <div data-role="page" id="reefPage">
+  <div data-role="page" id="reefPage" class="tour">
     <a href="index.html" class="home">Home</a>
     <h1>Tour the Tanks!</h1>
     <h2>Artificial Reef</h2>
@@ -88,8 +88,8 @@
     <video width="320" height="240" controls>
       <source src="assets/ArtificialReef.mp4" type="video/mp4">
     </video>
-    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="150" height="150">
-    <img src="assets/goprobubble.png" class="bubble" alt="speech bubble" width="125" height="125">
+    <img src="assets/fish.png" class="fish" alt="Cartoon Fish"  width="100" height="100">
+    <img src="assets/goprobubble.png" class="bubble" alt="speech bubble" width="100" height="100">
   </div>
   </div>
 
@@ -130,65 +130,81 @@
 
     <h1>Fish Inventory</h1>
     <div data-role="content">
-      <table align="center"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
-          <td class="info" align="center">Horse Shoe Crab</td>
-          <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
+      <table align="center" border="1"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
+          <td class="info" align="center"><p class="title">Horse Shoe Crab</p>These animals have inhabited earth for
+          around 445 millions years. It uses its spiked tail to help flip itself over if they end up on their back.</td>
+          <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">DogFish Shark</td>
-          <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">DogFish Shark</p>Dogfish are usually harmless, but a
+            poison can be secreted at the base of the spine occasionally in defense. They are the most common shark alive.</td>
+          <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Royal Gramma</td>
-          <td align="center"><img src="assets/gramma.png" alt="royal gramma" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Royal Gramma</p>This fish is best known as Gurgle,
+            the nervous and germophobic tank mate in the Disney Pixar film "Finding Nemo". It gets
+            its name from its bright “royal purple” color.</td>
+          <td align="center"><img src="assets/gramma.png" alt="royal gramma" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Pork Fish</td>
-          <td align="center"><img src="assets/porkfish.png" alt="pork fish" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Pork Fish</p>This fish is a species of Grunt that is
+             native to the western Atlantic. It is normally nocturnal and can grow up to 12 inches.</td>
+          <td align="center"><img src="assets/porkfish.png" alt="pork fish" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Blue Chromis</td>
-          <td align="center"><img src="assets/bluechromis.png" alt="blue chromis" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Blue Chromis</p>This tiny fish can grow up to 3 inches in length on average.
+          In fact, the largest blue chromis is only 3.1 inches in length. They mainly feed on phytoplankton.</td>
+          <td align="center"><img src="assets/bluechromis.png" alt="blue chromis" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Scorpion Fish</td>
-          <td align="center"><img src="assets/scorpionfish.png" alt="Scorpion Fish" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Scorpion Fish</p>Scorpion fish are inactive during the day, and hunt
+          at night. They have highly venomous spines that are used to deter predators.</td>
+          <td align="center"><img src="assets/scorpionfish.png" alt="Scorpion Fish" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Puffer Fish</td>
-          <td align="center"><img src="assets/pufferfish.png" alt="Puffer Fish" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Puffer Fish</p>These fish do not have scales and instead has thick and
+          rough skin. Some have spines that offer protection against predators. They have four teeth that form a beak-like structure.</td>
+          <td align="center"><img src="assets/pufferfish.png" alt="Puffer Fish" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Slipper Lobster</td>
-          <td align="center"><img src="assets/slipper.png" alt="Slipper Lobster" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Slipper Lobster</p>Slipper lobsters are not considered ture lobsters because
+          of their lack of claws. They are found in depths of 500 meters, where they use camouflage to hide from predators.</td>
+          <td align="center"><img src="assets/slipper.png" alt="Slipper Lobster" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Brain Coral</td>
-          <td align="center"><img src="assets/brain.png" alt="Brain Coral" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Brain Coral</p>This coral can live for hundreds of years, with some reaching
+          900 years old. They are considered a threatened species due to beach pollution.</td>
+          <td align="center"><img src="assets/brain.png" alt="Brain Coral" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Spotted Spiny Lobster</td>
-          <td align="center"><img src="assets/spotted.png" alt="Spotted Spiny Lobster" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Spotted Spiny Lobster</p>This lobster is also known as the guinea chick lobster.
+          It has a lifespan of about 15 years and can grow five to eight inches long.</td>
+          <td align="center"><img src="assets/spotted.png" alt="Spotted Spiny Lobster" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Horse Conch</td>
-          <td align="center"><img src="assets/conch.png" alt="Horse Conch" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Horse Conch</p>This conch is the state shell of florida. It's the largest
+          snail found in american waters. It's diet consists of clams, mussles, and other snails.</td>
+          <td align="center"><img src="assets/conch.png" alt="Horse Conch" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Lookdown fish</td>
-          <td align="center"><img src="assets/lookdown.png" alt="Lookdown fish" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Lookdown fish</p>This fish is known for its thin and bright silvery-blue scales.
+          It's diet consists of meaty foods. These fish are found in tropical and subtropical waters.</td>
+          <td align="center"><img src="assets/lookdown.png" alt="Lookdown fish" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Blind Eye Cave Fish</td>
-          <td align="center"><img src="assets/cave.png" alt="Blind Eye Cave Fish" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Blind Eye Cave Fish</p>These fish are known for having no eyes or pigment.
+          They are also known as the mexican tetra and can grow up to 12 cm.</td>
+          <td align="center"><img src="assets/cave.png" alt="Blind Eye Cave Fish" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Slippery Dick</td>
-          <td align="center"><img src="assets/slippery.png" alt="Slippery Dick" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Slippery Dick</p>Slippery dicks are found in tropical and subtropical waters.
+          They feed on invertebrates and its colors vary as they grow.</td>
+          <td align="center"><img src="assets/slippery.png" alt="Slippery Dick" width="175" height="125"></td>
         </tr>
         <tr>
-          <td class="info" align="center">Caribbean Spiny Lobster</td>
-          <td align="center"><img src="assets/caribbean.jpg" alt="Caribbean Spiny Lobster" width="150" height="100"></td>
+          <td class="info" align="center"><p class="title">Caribbean Spiny Lobster</p>These lobsters tend to live in crevices of rocks and
+          coral reefs. They can live up to around 100 years. The females carry their eggs underneath their tail.</td>
+          <td align="center"><img src="assets/caribbean.jpg" alt="Caribbean Spiny Lobster" width="175" height="125"></td>
         </tr>
       </table>
 
@@ -196,71 +212,88 @@
   </div>
 
   <!--fish page from riddles-->
-  <div data-role="page" id="fishriddlePage">
-    <a href="#riddlesPage">Back</a>
-    <h1>Fish Inventory</h1>
+  <div data-role=page id="fishriddlePage" class="inv">
+    <a href="#riddlesPage" class="home">Back</a>
 
-    <table align="center"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
-        <td class="info" align="center">Horse Shoe Crab</td>
-        <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">DogFish Shark</td>
-        <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Royal Gramma</td>
-        <td align="center"><img src="assets/gramma.png" alt="royal gramma" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Pork Fish</td>
-        <td align="center"><img src="assets/porkfish.png" alt="pork fish" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Blue Chromis</td>
-        <td align="center"><img src="assets/bluechromis.png" alt="blue chromis" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Scorpion Fish</td>
-        <td align="center"><img src="assets/scorpionfish.png" alt="Scorpion Fish" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Puffer Fish</td>
-        <td align="center"><img src="assets/pufferfish.png" alt="Puffer Fish" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Slipper Lobster</td>
-        <td align="center"><img src="assets/slipper.png" alt="Slipper Lobster" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Brain Coral</td>
-        <td align="center"><img src="assets/brain.png" alt="Brain Coral" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Spotted Spiny Lobster</td>
-        <td align="center"><img src="assets/spotted.png" alt="Spotted Spiny Lobster" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Horse Conch</td>
-        <td align="center"><img src="assets/conch.png" alt="Horse Conch" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Lookdown fish</td>
-        <td align="center"><img src="assets/lookdown.png" alt="Lookdown fish" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Blind Eye Cave Fish</td>
-        <td align="center"><img src="assets/cave.png" alt="Blind Eye Cave Fish" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Slippery Dick</td>
-        <td align="center"><img src="assets/slippery.png" alt="Slippery Dick" width="150" height="100"></td>
-      </tr>
-      <tr>
-        <td class="info" align="center">Caribbean Spiny Lobster</td>
-        <td align="center"><img src="assets/caribbean.jpg" alt="Caribbean Spiny Lobster" width="150" height="100"></td>
-      </tr>
-    </table>
+    <h1>Fish Inventory</h1>
+    <div data-role="content">
+      <table align="center" border="1"> <!--TAKE OUT BORDER WHEN DONE WITH TABLE-->
+          <td class="info" align="center"><p class="title">Horse Shoe Crab</p>These animals have inhabited earth for
+          around 445 millions years. It uses its spiked tail to help flip itself over if they end up on their back.</td>
+          <td align="center"><img src="assets/horsecrab.png" alt="Horse Shoe Crab" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">DogFish Shark</p>Dogfish are usually harmless, but a
+            poison can be secreted at the base of the spine occasionally in defense. They are the most common shark alive.</td>
+          <td align="center"><img src="assets/shark.jpeg" alt="Dog Fish Shark" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Royal Gramma</p>This fish is best known as Gurgle,
+            the nervous and germophobic tank mate in the Disney Pixar film "Finding Nemo". It gets
+            its name from its bright “royal purple” color.</td>
+          <td align="center"><img src="assets/gramma.png" alt="royal gramma" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Pork Fish</p>This fish is a species of Grunt that is
+             native to the western Atlantic. It is normally nocturnal and can grow up to 12 inches.</td>
+          <td align="center"><img src="assets/porkfish.png" alt="pork fish" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Blue Chromis</p>This tiny fish can grow up to 3 inches in length on average.
+          In fact, the largest blue chromis is only 3.1 inches in length. They mainly feed on phytoplankton.</td>
+          <td align="center"><img src="assets/bluechromis.png" alt="blue chromis" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Scorpion Fish</p>Scorpion fish are inactive during the day, and hunt
+          at night. They have highly venomous spines that are used to deter predators.</td>
+          <td align="center"><img src="assets/scorpionfish.png" alt="Scorpion Fish" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Puffer Fish</p>These fish do not have scales and instead has thick and
+          rough skin. Some have spines that offer protection against predators. They have four teeth that form a beak-like structure.</td>
+          <td align="center"><img src="assets/pufferfish.png" alt="Puffer Fish" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Slipper Lobster</p>Slipper lobsters are not considered ture lobsters because
+          of their lack of claws. They are found in depths of 500 meters, where they use camouflage to hide from predators.</td>
+          <td align="center"><img src="assets/slipper.png" alt="Slipper Lobster" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Brain Coral</p>This coral can live for hundreds of years, with some reaching
+          900 years old. They are considered a threatened species due to beach pollution.</td>
+          <td align="center"><img src="assets/brain.png" alt="Brain Coral" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Spotted Spiny Lobster</p>This lobster is also known as the guinea chick lobster.
+          It has a lifespan of about 15 years and can grow five to eight inches long.</td>
+          <td align="center"><img src="assets/spotted.png" alt="Spotted Spiny Lobster" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Horse Conch</p>This conch is the state shell of florida. It's the largest
+          snail found in american waters. It's diet consists of clams, mussles, and other snails.</td>
+          <td align="center"><img src="assets/conch.png" alt="Horse Conch" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Lookdown fish</p>This fish is known for its thin and bright silvery-blue scales.
+          It's diet consists of meaty foods. These fish are found in tropical and subtropical waters.</td>
+          <td align="center"><img src="assets/lookdown.png" alt="Lookdown fish" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Blind Eye Cave Fish</p>These fish are known for having no eyes or pigment.
+          They are also known as the mexican tetra and can grow up to 12 cm.</td>
+          <td align="center"><img src="assets/cave.png" alt="Blind Eye Cave Fish" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Slippery Dick</p>Slippery dicks are found in tropical and subtropical waters.
+          They feed on invertebrates and its colors vary as they grow.</td>
+          <td align="center"><img src="assets/slippery.png" alt="Slippery Dick" width="175" height="125"></td>
+        </tr>
+        <tr>
+          <td class="info" align="center"><p class="title">Caribbean Spiny Lobster</p>These lobsters tend to live in crevices of rocks and
+          coral reefs. They can live up to around 100 years. The females carry their eggs underneath their tail.</td>
+          <td align="center"><img src="assets/caribbean.jpg" alt="Caribbean Spiny Lobster" width="175" height="125"></td>
+        </tr>
+      </table>
 
     </div>
   </div>

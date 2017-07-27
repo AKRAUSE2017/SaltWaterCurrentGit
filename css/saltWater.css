@@ -34,9 +34,8 @@ table{
 .bubble{
   position: absolute;
   padding-top:10px;
-  right:160px;
-  bottom:10px;
-  bottom:25px;
+  right:110px;
+  bottom:10px
 }
 
 .goproButton{
@@ -66,7 +65,7 @@ table{
 }
 
 .aboutBG{
-  background: green;
+  background: lightgreen;
 }
 
 .ui-content{
@@ -102,7 +101,25 @@ table{
 
 .home{
   text-shadow: 0px 0px;
+  font-size: 20px
 }
 
-.txtTable{
+.info{
   color: black;
+}
+
+.inv{
+  background: #b6bfc8;
+}
+
+.bts{
+  background: #ffc7b3;
+}
+
+.tour{
+  background: #afcfaf;
+}
+
+.title{
+  text-decoration: underline;
+}
